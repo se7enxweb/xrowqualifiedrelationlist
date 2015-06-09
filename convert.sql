@@ -1,0 +1,2 @@
+UPDATE ezcontentclass_attribute SET data_type_string='xrowqualifiedrelationlist' WHERE id in ( 305, 588 ) and data_type_string = 'ezobjectrelationlist';
+UPDATE ezcontentobject_attribute SET data_type_string='xrowqualifiedrelationlist' WHERE contentclassattribute_id in ( 305, 588 ) and data_type_string = 'ezobjectrelationlist';
